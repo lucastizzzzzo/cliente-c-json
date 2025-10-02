@@ -1,0 +1,23 @@
+[
+  {
+    "idade": 25,
+    "cpf": "09954603611",
+    "profissao": "Garageiro",
+    "nome": "Lucas",
+    "id": 1
+  },
+  {
+    "idade": 26,
+    "cpf": "088854603611Ricardo",
+    "profissao": "Feirante",
+    "nome": "Ricardo",
+    "id": 2
+  },
+  {
+    "idade": 27,
+    "cpf": "0546923654",
+    "profissao": "Psiquiatra",
+    "nome": "Carlos",
+    "id": 3
+  }
+]
