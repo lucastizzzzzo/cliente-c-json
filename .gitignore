@@ -1,6 +1,12 @@
-# ----------------------------
-# C/C++ compilados
-# ----------------------------
+# Arquivos compilados e pacotes Java
+*.class
+*.jar
+*.war
+*.ear
+
+# Arquivos compilados de C/C++
+# Adicionada regra para o executável "cliente" sem extensão
+cliente
 *.o
 *.obj
 *.exe
@@ -10,37 +16,22 @@
 *.so
 *.dll
 
-# Diretórios de build
+# Diretórios de build e saída
 /build/
 /bin/
+/target/
+/out/
 /Debug/
 /Release/
 
-# ----------------------------
-# Java
-# ----------------------------
-*.class
-*.jar
-*.war
-*.ear
+# Arquivos de configuração de IDEs e temporários
+/.idea/
+/.vscode/
 *.iml
-
-# Diretórios de build
-/target/
-/out/
-
-# ----------------------------
-# Arquivos temporários/IDE
-# ----------------------------
 *.log
 *.tmp
 *.swp
 *.DS_Store
-
-# IDEs comuns
-/.idea/
-/.vscode/
-/*.classpath
-/*.project
-/*.settings/
-
+*.classpath
+*.project
+*.settings/
