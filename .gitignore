@@ -1,0 +1,46 @@
+# ----------------------------
+# C/C++ compilados
+# ----------------------------
+*.o
+*.obj
+*.exe
+*.out
+*.app
+*.a
+*.so
+*.dll
+
+# Diretórios de build
+/build/
+/bin/
+/Debug/
+/Release/
+
+# ----------------------------
+# Java
+# ----------------------------
+*.class
+*.jar
+*.war
+*.ear
+*.iml
+
+# Diretórios de build
+/target/
+/out/
+
+# ----------------------------
+# Arquivos temporários/IDE
+# ----------------------------
+*.log
+*.tmp
+*.swp
+*.DS_Store
+
+# IDEs comuns
+/.idea/
+/.vscode/
+/*.classpath
+/*.project
+/*.settings/
+
